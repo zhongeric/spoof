@@ -14,6 +14,7 @@
 		7526278F2067E35E00769305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7526278D2067E35E00769305 /* LaunchScreen.storyboard */; };
 		7526279A2067E35F00769305 /* spoofTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752627992067E35F00769305 /* spoofTests.swift */; };
 		752627A52067E35F00769305 /* spoofUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752627A42067E35F00769305 /* spoofUITests.swift */; };
+		752627B62068063F00769305 /* Location (1).gpx in Resources */ = {isa = PBXBuildFile; fileRef = 752627B52068063F00769305 /* Location (1).gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		752627A02067E35F00769305 /* spoofUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spoofUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		752627A42067E35F00769305 /* spoofUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spoofUITests.swift; sourceTree = "<group>"; };
 		752627A62067E35F00769305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752627B52068063F00769305 /* Location (1).gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Location (1).gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		752627782067E35E00769305 = {
 			isa = PBXGroup;
 			children = (
+				752627B52068063F00769305 /* Location (1).gpx */,
 				752627832067E35E00769305 /* spoof */,
 				752627982067E35F00769305 /* spoofTests */,
 				752627A32067E35F00769305 /* spoofUITests */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				752627B62068063F00769305 /* Location (1).gpx in Resources */,
 				7526278F2067E35E00769305 /* LaunchScreen.storyboard in Resources */,
 				7526278C2067E35E00769305 /* Assets.xcassets in Resources */,
 				7526278A2067E35E00769305 /* Main.storyboard in Resources */,
@@ -344,7 +348,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Eric Zhong (RV7A82TL2A)";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -401,7 +406,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Eric Zhong (RV7A82TL2A)";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -426,11 +432,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RV7A82TL2A;
 				INFOPLIST_FILE = spoof/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericzhong.spoof;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +449,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RV7A82TL2A;
 				INFOPLIST_FILE = spoof/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericzhong.spoof;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

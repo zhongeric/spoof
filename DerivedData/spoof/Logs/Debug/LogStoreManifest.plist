@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>055D231F-39BF-4144-98EC-D499134A3299</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>055D231F-39BF-4144-98EC-D499134A3299.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>spoof project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>spoof</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug spoof</string>
+			<key>timeStartedRecording</key>
+			<real>646099922.45070899</real>
+			<key>timeStoppedRecording</key>
+			<real>646099956.850335</real>
+			<key>title</key>
+			<string>Debug spoof</string>
+			<key>uniqueIdentifier</key>
+			<string>055D231F-39BF-4144-98EC-D499134A3299</string>
+		</dict>
+		<key>21DE5069-35E7-4F68-9B9F-76A21593C7CB</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>21DE5069-35E7-4F68-9B9F-76A21593C7CB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>spoof project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>spoof</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug spoof</string>
+			<key>timeStartedRecording</key>
+			<real>623869133.55029595</real>
+			<key>timeStoppedRecording</key>
+			<real>623869216.63518703</real>
+			<key>title</key>
+			<string>Debug spoof</string>
+			<key>uniqueIdentifier</key>
+			<string>21DE5069-35E7-4F68-9B9F-76A21593C7CB</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "9d69869086958f80dd2001b673660925"
+build_time: [1624406846, 348511000]
+inputs:
+  "/Users/EricZhong/spoof/spoof/ViewController.swift": [1521986526, 0]
+  "/Users/EricZhong/spoof/spoof/AppDelegate.swift": [1521986526, 0]
